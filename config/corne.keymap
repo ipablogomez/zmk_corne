@@ -56,7 +56,7 @@
 //                                              | GUI        |              | SPC     |   | ENT        |          | ALT |
                         bindings = <
    &kp RA(N3)   &kp EXCL          &kp RA(N2)    &kp RA(SQT)   &kp RA(BSLH)  &kp RA(N1)    &kp C_PP     &kp F7  &kp F8  &kp F9 &kp F10 &kp BSPC
-   &kp AT       &kp LS(KP_MINUS)  &kp KP_MINUS  &kp ASTRK     &kp LPAR      &kp RA(GRAVE) &kp C_VOL_UP &kp F4  &kp F5  &kp F6 &kp F11 &kp RSHFT
+   &kp AT       &kp LS(MINUS)  &kp MINUS  &kp ASTRK     &kp LPAR      &kp RA(GRAVE) &kp C_VOL_UP &kp F4  &kp F5  &kp F6 &kp F11 &kp RSHFT
    &kp LS(LBRC) &kp PRCNT         &kp DLLR      &kp RA(LBKT)  &kp RA(RBKT)  &kp CARET     &kp C_VOL_DN &kp F1  &kp F2  &kp F3 &kp F12 &kp RCTRL
                     	                        &kp LGUI      &trans        &kp SPACE     &kp RET      &trans  &kp RALT
                         >;
