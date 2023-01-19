@@ -36,14 +36,14 @@
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB    |               |          |        |           |         |    |  ,      |  7        |  8      |  9       |  *  |    /   |
+// |  TAB    |               |          |        |           | CAPS    |    |  ,      |  7        |  8      |  9       |  *  |    /   |
 // | BTCLR   | PgUp          | Home     |  Up    |  End      | Del     |    |  .      |  4        |  5      |  6       |  +  |    -   |
-// | SHFT    | PgDn          | Left     | Down   | Right     |         |    |  0      |  1        |  2      |  3       |  =  | CapsLk |
+// | SHFT    | PgDn          | Left     | Down   | Right     | MUTE    |    |  0      |  1        |  2      |  3       |  =  | CapsLk |
 //                           | GUI      |        | SPC       |         |    |   ENT   |           | L_ALT   |
                         bindings = <
-   &kp TAB    &trans         &trans     &trans    &trans     &trans         &kp COMMA  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MULTIPLY  &kp KP_DIVIDE
+   &kp TAB    &trans         &trans     &trans    &trans     &kp CAPS       &kp COMMA  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MULTIPLY  &kp KP_DIVIDE
    &kp LSHFT  &kp PAGE_UP    &kp HOME   &kp UP    &kp END    &kp DEL        &kp DOT    &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS      &kp KP_MINUS
-   &kp LCTRL  &kp PAGE_DOWN  &kp LEFT   &kp DOWN  &kp RIGHT  &kp C_MUTE     &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_EQUAL     &kp CAPS
+   &kp LCTRL  &kp PAGE_DOWN  &kp LEFT   &kp DOWN  &kp RIGHT  &kp C_MUTE     &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_EQUAL     &trans
                           	            &kp LGUI  &trans     &kp SPACE      &kp RET    &trans     &kp RALT
                         >;
                 };
@@ -57,7 +57,7 @@
                         bindings = <
    &kp RA(N3)   &kp EXCL          &kp RA(N2)    &kp RA(SQT)   &kp RA(BSLH)  &kp RA(N1)    &kp C_PP     &kp F7  &kp F8  &kp F9 &kp F10 &kp BSPC
    &kp AT       &kp LS(KP_MINUS)  &kp KP_MINUS  &kp ASTRK     &kp LPAR      &kp RA(GRAVE) &kp C_VOL_UP &kp F4  &kp F5  &kp F6 &kp F11 &kp RSHFT
-   &kp LS(LBRC) &kp PRCNT         &kp DLLR      &kp RA(LBKT)  &kp RA(RBRC)  &kp CARET     &kp C_VOL_DN &kp F1  &kp F2  &kp F3 &kp F12 &kp RCTRL
+   &kp LS(LBRC) &kp PRCNT         &kp DLLR      &kp RA(LBKT)  &kp RA(RBKT)  &kp CARET     &kp C_VOL_DN &kp F1  &kp F2  &kp F3 &kp F12 &kp RCTRL
                     	                        &kp LGUI      &trans        &kp SPACE     &kp RET      &trans  &kp RALT
                         >;
                 };
