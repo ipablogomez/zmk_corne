@@ -33,7 +33,7 @@
 //                           | GUI      |        | SPC       |         |    |   ENT   |           | L_ALT   |
                         bindings = <
    &kp TAB    &trans         &trans     &trans    &trans     &trans         &kp COMMA  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MULTIPLY  &kp KP_DIVIDE
-   &bt LSHFT  &kp PAGE_UP    &kp HOME   &kp UP    &kp END    &kp DEL        &kp DOT    &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS      &kp KP_MINUS
+   &kp LSHFT  &kp PAGE_UP    &kp HOME   &kp UP    &kp END    &kp DEL        &kp DOT    &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS      &kp KP_MINUS
    &kp LCTRL  &kp PAGE_DOWN  &kb LEFT   &kp DOWN  &kp RIGHT  &trans         &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_EQUAL     &kp CAPS
                           	 &kp LGUI   &trans    &kp SPACE  &kp RET  &trans   &kp RALT
                         >;
