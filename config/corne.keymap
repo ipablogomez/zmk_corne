@@ -45,15 +45,15 @@
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB    | PgUp          | Home     |  Up    |  End        | CAPS    |    |  ,      |  7        |  8      |  9       |  *  |    /   |
-// | BTCLR   | PgDn          | Left     | Down   | Right       | Del     |    |  .      |  4        |  5      |  6       |  +  |    -   |
-// | SHFT    |               |          |   <    | >           | MUTE    |    |  0      |  1        |  2      |  3       |  =  | CapsLk |
-//                           | GUI      |        | SPC         |         |    |   ENT   |           | L_ALT   |
+// |  TAB    | PgUp          | Home        |  Up    |  End        | ScrenS  |    |  ,      |  7        |  8      |  9       |  *  |    /   |
+// | BTCLR   | PgDn          | Left        | Down   | Right       | Del     |    |  .      |  4        |  5      |  6       |  +  |    -   |
+// | SHFT    | NUM Lock      | CALC        |   <    | >           | MUTE    |    |  0      |  1        |  2      |  3       |  =  | CapsLk |
+//                           | GUI         |        | SPC         |         |    |   ENT   |           | L_ALT   |
                         bindings = <
-   &kp TAB    &kp PAGE_UP    &kp HOME   &kp UP    &kp END      &kp CAPS       &kp COMMA  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MULTIPLY  &kp KP_DIVIDE
-   &kp LSHFT  &kp PAGE_DOWN  &kp LEFT   &kp DOWN  &kp RIGHT    &kp DEL        &kp DOT    &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS      &kp KP_MINUS
-   &kp LCTRL  &kp KP_NLCK    &kp K_CALC &kp NUBS  &kp LS(NUBS) &kp C_MUTE     &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp LS(N0)     &trans
-                          	            &kp LALT  &trans       &kp SPACE      &kp RET    &kp SPACE  &kp RALT
+   &kp TAB    &kp PAGE_UP    &kp HOME      &kp UP    &kp END      &kp LG(LS(S))  &kp COMMA  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MULTIPLY  &kp BSPC
+   &kp LSHFT  &kp PAGE_DOWN  &kp LEFT      &kp DOWN  &kp RIGHT    &kp DEL        &kp DOT    &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS      &kp KP_MINUS
+   &kp LCTRL  &kp KP_NLCK    &kp C_AL_CALC &kp NUBS  &kp LS(NUBS) &kp C_MUTE     &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp LS(N0)       &kp KP_DIVIDE
+                          	               &kp LALT  &trans       &kp SPACE      &kp RET    &kp SPACE  &kp RALT
                         >;
                 };
 
