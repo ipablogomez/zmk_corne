@@ -16,7 +16,6 @@
 	quick-tap-ms = <QUICK_TAP>;
 };
 
-
 / {
     behaviors {
         td0: tap_dance_0 {
